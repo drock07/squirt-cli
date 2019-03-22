@@ -1,0 +1,25 @@
+{
+  "name": "squirt-cli",
+  "version": "1.0.0",
+  "description": "A tool for quickly squirting out react components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drock07/squirt-cli.git"
+  },
+  "keywords": [
+    "squirt",
+    "react",
+    "cli",
+    "tool"
+  ],
+  "author": "David Rockwood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drock07/squirt-cli/issues"
+  },
+  "homepage": "https://github.com/drock07/squirt-cli#readme"
+}
