@@ -132,12 +132,7 @@ Squirt uses BlueImp as its templating engine.
 
 CONFIG
 ------
-Reactman needs a configuration to run. Optional keys are marked with a *
-
-You can also export an object form a .js file, this allows you to use validation
-and filter functions.
-
-See the working example in `./test/` for more information
+Squirt needs a `.squirtrc` config file to run.
 
 * `templatesPath` defines where Reactman will look for templates
 * `templates` defines the available templates
