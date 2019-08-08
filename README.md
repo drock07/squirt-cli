@@ -14,7 +14,7 @@ Install via NPM/Yarn/etc
 
 `npm install -g squirt-cli`
 
-Make a `.squirtrc` config file from the example below. You will also need some templates files.
+Make a `.squirtrc` or `.squirtrc.json` config file from the example below. You will also need some templates files.
 
 Go to the directory where you want to create new files, then run `squirt` in the terminal.
 
@@ -132,7 +132,7 @@ Squirt uses BlueImp as its templating engine.
 
 CONFIG
 ------
-Squirt needs a `.squirtrc` config file to run.
+Squirt needs a `.squirtrc` or `.squirtrc.json` config file to run. Note that with or without the `.json` extension, the config file should be written as a JSON object.
 
 * `templatesPath` defines where Reactman will look for templates
 * `templates` defines the available templates
@@ -143,7 +143,7 @@ example
     * value : The output file location path, relative to the directory where Squirt is running. This path can include BlueImp templates.
   * `script` : An array of [Inquirer](https://github.com/sboudrias/Inquirer.js) prompts, used for getting template values.
 
-Example config (used in the Reactman tests)
+Example config
 
 ```json
 {
