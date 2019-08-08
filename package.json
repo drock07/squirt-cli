@@ -1,6 +1,6 @@
 {
   "name": "squirt-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tool for quickly squirting out react components.",
   "main": "./lib/Squirt.js",
   "bin": {
