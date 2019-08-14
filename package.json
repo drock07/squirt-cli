@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/drock07/squirt-cli#readme",
   "dependencies": {
-    "async": "^2.6.2",
     "blueimp-tmpl": "^3.11.0",
     "commander": "^2.19.0",
     "findup-sync": "^3.0.0",

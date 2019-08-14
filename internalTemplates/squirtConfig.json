@@ -1,0 +1,5 @@
+{
+    "templatesPath": "{%=o.templatesPath%}",
+    "templates": {
+    }
+}
